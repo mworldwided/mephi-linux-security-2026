@@ -1,0 +1,293 @@
+    PID RUSER    USER     CMD
+      1 root     root     /usr/lib/systemd/systemd --switched-root --system --deserialize=55 rhgb
+      2 root     root     [kthreadd]
+      3 root     root     [pool_workqueue_release]
+      4 root     root     [kworker/R-rcu_gp]
+      5 root     root     [kworker/R-sync_wq]
+      6 root     root     [kworker/R-kvfree_rcu_reclaim]
+      7 root     root     [kworker/R-slub_flushwq]
+      8 root     root     [kworker/R-netns]
+     10 root     root     [kworker/0:0H-events_highpri]
+     12 root     root     [kworker/u8:0-events_unbound]
+     13 root     root     [kworker/R-mm_percpu_wq]
+     14 root     root     [kworker/u8:1-netns]
+     15 root     root     [ksoftirqd/0]
+     16 root     root     [rcu_preempt]
+     17 root     root     [rcu_exp_par_gp_kthread_worker/0]
+     18 root     root     [rcu_exp_gp_kthread_worker]
+     19 root     root     [migration/0]
+     20 root     root     [idle_inject/0]
+     21 root     root     [cpuhp/0]
+     22 root     root     [cpuhp/1]
+     23 root     root     [idle_inject/1]
+     24 root     root     [migration/1]
+     25 root     root     [ksoftirqd/1]
+     27 root     root     [kworker/1:0H-events_highpri]
+     28 root     root     [kworker/u9:0-events_unbound]
+     30 root     root     [kdevtmpfs]
+     31 root     root     [kworker/R-inet_frag_wq]
+     32 root     root     [rcu_tasks_kthread]
+     33 root     root     [rcu_tasks_rude_kthread]
+     34 root     root     [rcu_tasks_trace_kthread]
+     35 root     root     [kauditd]
+     36 root     root     [oom_reaper]
+     39 root     root     [kworker/R-writeback]
+     40 root     root     [kcompactd0]
+     41 root     root     [ksmd]
+     42 root     root     [khugepaged]
+     43 root     root     [kworker/R-kblockd]
+     44 root     root     [kworker/R-blkcg_punt_bio]
+     45 root     root     [kworker/R-kintegrityd]
+     46 root     root     [irq/9-acpi]
+     47 root     root     [kworker/R-tpm_dev_wq]
+     48 root     root     [kworker/R-ata_sff]
+     49 root     root     [kworker/R-md_bitmap]
+     50 root     root     [kworker/R-md]
+     51 root     root     [kworker/R-edac-poller]
+     52 root     root     [kworker/R-devfreq_wq]
+     53 root     root     [watchdogd]
+     54 root     root     [kworker/R-quota_events_unbound]
+     56 root     root     [kworker/1:1H-kblockd]
+     58 root     root     [kswapd0]
+     59 root     root     [kworker/R-cryptd]
+     62 root     root     [kworker/R-kthrotld]
+     63 root     root     [irq/24-pciehp]
+     64 root     root     [irq/25-pciehp]
+     65 root     root     [irq/26-pciehp]
+     66 root     root     [irq/27-pciehp]
+     67 root     root     [irq/28-pciehp]
+     68 root     root     [irq/29-pciehp]
+     69 root     root     [irq/30-pciehp]
+     70 root     root     [irq/31-pciehp]
+     71 root     root     [irq/32-pciehp]
+     72 root     root     [irq/33-pciehp]
+     73 root     root     [irq/34-pciehp]
+     74 root     root     [irq/35-pciehp]
+     75 root     root     [irq/36-pciehp]
+     76 root     root     [irq/37-pciehp]
+     77 root     root     [irq/38-pciehp]
+     78 root     root     [irq/39-pciehp]
+     79 root     root     [irq/40-pciehp]
+     80 root     root     [irq/41-pciehp]
+     81 root     root     [irq/42-pciehp]
+     82 root     root     [irq/43-pciehp]
+     83 root     root     [irq/44-pciehp]
+     84 root     root     [irq/45-pciehp]
+     85 root     root     [irq/46-pciehp]
+     86 root     root     [irq/47-pciehp]
+     87 root     root     [irq/48-pciehp]
+     88 root     root     [irq/49-pciehp]
+     89 root     root     [irq/50-pciehp]
+     90 root     root     [irq/51-pciehp]
+     91 root     root     [irq/52-pciehp]
+     92 root     root     [irq/53-pciehp]
+     93 root     root     [irq/54-pciehp]
+     94 root     root     [irq/55-pciehp]
+     95 root     root     [kworker/R-acpi_thermal_pm]
+     97 root     root     [scsi_eh_0]
+     98 root     root     [kworker/R-scsi_tmf_0]
+     99 root     root     [scsi_eh_1]
+    100 root     root     [kworker/R-scsi_tmf_1]
+    101 root     root     [kworker/u10:3-btrfs-endio-write]
+    103 root     root     [kworker/R-dm_bufio_cache]
+    104 root     root     [kworker/u10:5-btrfs-endio]
+    107 root     root     [kworker/R-mld]
+    108 root     root     [kworker/R-ipv6_addrconf]
+    109 root     root     [kworker/R-kstrp]
+    119 root     root     [kworker/u11:0]
+    195 root     root     [kworker/0:1H-kblockd]
+    285 root     root     [kworker/0:2-ata_sff]
+    446 root     root     [irq/16-vmwgfx]
+    447 root     root     [kworker/R-ttm]
+    448 root     root     [kworker/R-nvme-wq]
+    449 root     root     [kworker/R-nvme-reset-wq]
+    450 root     root     [kworker/R-nvme-delete-wq]
+    451 root     root     [kworker/R-nvme-auth-wq]
+    492 root     root     [kworker/R-btrfs-worker]
+    493 root     root     [kworker/R-btrfs-delalloc]
+    494 root     root     [kworker/R-btrfs-flush_delalloc]
+    495 root     root     [kworker/R-btrfs-cache]
+    496 root     root     [kworker/R-btrfs-fixup]
+    497 root     root     [kworker/R-btrfs-endio]
+    498 root     root     [kworker/R-btrfs-endio-meta]
+    499 root     root     [kworker/R-btrfs-rmw]
+    500 root     root     [kworker/R-btrfs-endio-write]
+    501 root     root     [kworker/R-btrfs-freespace-write]
+    502 root     root     [kworker/R-btrfs-delayed-meta]
+    503 root     root     [kworker/R-btrfs-qgroup-rescan]
+    504 root     root     [btrfs-cleaner]
+    505 root     root     [btrfs-transaction]
+    701 root     root     [irq/59-vmw_vmci]
+    702 root     root     [irq/60-vmw_vmci]
+    703 root     root     [irq/61-vmw_vmci]
+    753 root     root     /usr/lib/systemd/systemd-journald
+    778 root     root     /usr/lib/systemd/systemd-userdbd
+    786 systemd+ systemd+ /usr/lib/systemd/systemd-resolved
+    790 root     root     /usr/lib/systemd/systemd-udevd
+    792 root     root     [psimon]
+    829 systemd+ systemd+ /usr/lib/systemd/systemd-oomd
+    844 root     root     [jbd2/nvme0n1p2-8]
+    847 root     root     [kworker/R-ext4-rsv-conversion]
+    875 root     root     /usr/bin/auditd
+    897 dbus     dbus     /usr/bin/dbus-broker-launch --scope system --audit
+    905 dbus     dbus     dbus-broker --log 10 --controller 9 --machine-id 910a4e034db549048017cd9d26bd488e --max-bytes 536870912 --max-fds 4096 --max-matches 131072 --audit
+    908 avahi    avahi    avahi-daemon: running [fedora.local]
+    911 root     root     /usr/sbin/irqbalance
+    912 chrony   chrony   /usr/sbin/chronyd -n -F 2
+    917 root     root     /usr/sbin/mcelog --daemon --foreground
+    919 polkitd  polkitd  /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+    920 rtkit    rtkit    /usr/libexec/rtkit-daemon
+    921 root     root     /usr/libexec/switcheroo-control
+    922 root     root     /usr/lib/systemd/systemd-homed
+    924 root     root     /usr/lib/systemd/systemd-machined
+    925 root     root     /usr/libexec/udisks2/udisksd
+    930 root     root     /usr/libexec/upowerd
+    931 root     root     /usr/bin/VGAuthService -s
+    938 root     root     /usr/bin/vmtoolsd
+    942 root     root     /usr/sbin/abrtd -d -s
+    945 root     root     [psimon]
+    952 root     root     /usr/libexec/accounts-daemon
+    956 root     root     /usr/lib/systemd/systemd-logind
+    957 avahi    avahi    avahi-daemon: chroot helper
+   1031 root     root     /usr/bin/ModemManager
+   1045 root     root     /usr/bin/python3 -sP /usr/bin/firewalld --nofork --nopid
+   1051 root     root     /usr/bin/abrt-dump-journal-core -D -T -f -e
+   1055 root     root     /usr/bin/abrt-dump-journal-oops -fxtD
+   1058 root     root     /usr/bin/abrt-dump-journal-xorg -fxtD
+   1085 root     root     [kworker/R-rpciod]
+   1086 root     root     [kworker/R-xprtiod]
+   1089 root     root     /usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
+   1130 root     root     /usr/bin/NetworkManager --no-daemon
+   1140 root     root     /usr/bin/gssproxy -i
+   1141 root     root     /usr/bin/python3 -Es /usr/sbin/tuned -l -P
+   1171 root     root     /usr/sbin/atd -f
+   1174 root     root     /usr/sbin/crond -n
+   1176 root     root     /usr/bin/gdm
+   1214 root     root     [gdm-session-wor] <defunct>
+   1220 root     root     /usr/libexec/uresourced
+   1223 root     root     [psimon]
+   1644 root     root     /usr/bin/python3 -Es /usr/sbin/tuned-ppd -l
+   1904 root     root     /usr/sbin/rsyslogd -n
+   2056 colord   colord   /usr/libexec/colord
+   2235 pcscd    pcscd    /usr/bin/pcscd --foreground --auto-exit
+   2304 root     root     /usr/sbin/wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -u -s
+   2630 root     root     gdm-session-worker [pam/gdm-password]
+   2640 daniil   daniil   /usr/lib/systemd/systemd --user
+   2642 daniil   daniil   (sd-pam)
+   2659 daniil   daniil   /usr/bin/gnome-keyring-daemon --daemonize --login
+   2678 daniil   daniil   /usr/libexec/gdm-wayland-session /usr/bin/gnome-session
+   2687 daniil   daniil   /usr/bin/dbus-broker-launch --scope user
+   2689 daniil   daniil   dbus-broker --log 10 --controller 9 --machine-id 910a4e034db549048017cd9d26bd488e --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+   2691 daniil   daniil   /usr/libexec/gnome-session-init-worker gnome
+   2757 daniil   daniil   /usr/libexec/gnome-session-ctl --monitor
+   2758 daniil   daniil   /usr/libexec/uresourced --user
+   2767 daniil   daniil   /usr/libexec/gnome-session-service --session=gnome
+   2768 daniil   daniil   /usr/libexec/gvfsd
+   2778 daniil   daniil   /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+   2791 daniil   daniil   /usr/bin/gnome-shell --mode=user
+   2792 daniil   daniil   /usr/bin/pipewire
+   2793 daniil   daniil   /usr/bin/wireplumber
+   2837 daniil   daniil   /usr/libexec/at-spi-bus-launcher
+   2843 daniil   daniil   /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
+   2844 daniil   daniil   dbus-broker --log 10 --controller 9 --machine-id 910a4e034db549048017cd9d26bd488e --max-bytes 100000000000000 --max-fds 6400000 --max-matches 5000000000
+   2845 daniil   daniil   /usr/libexec/at-spi2-registryd --use-gnome-session
+   2862 daniil   daniil   /usr/libexec/xdg-permission-store
+   2863 daniil   daniil   /usr/libexec/gnome-shell-calendar-server
+   2878 daniil   daniil   /usr/libexec/dconf-service
+   2886 daniil   daniil   /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   2925 daniil   daniil   /usr/libexec/evolution-source-registry
+   2931 daniil   daniil   /usr/bin/ibus-daemon --panel disable
+   2932 daniil   daniil   /usr/libexec/gsd-a11y-settings
+   2933 daniil   daniil   /usr/libexec/gsd-color
+   2935 daniil   daniil   /usr/libexec/gsd-datetime
+   2936 daniil   daniil   /usr/libexec/gsd-housekeeping
+   2937 daniil   daniil   /usr/libexec/gsd-keyboard
+   2938 daniil   daniil   /usr/libexec/gsd-media-keys
+   2939 daniil   daniil   /usr/libexec/gsd-power
+   2940 daniil   daniil   /usr/libexec/gsd-print-notifications
+   2941 daniil   daniil   /usr/libexec/gsd-rfkill
+   2942 daniil   daniil   /usr/libexec/gsd-screensaver-proxy
+   2943 daniil   daniil   /usr/libexec/gsd-sharing
+   2944 daniil   daniil   /usr/libexec/gsd-smartcard
+   2945 daniil   daniil   /usr/libexec/gsd-sound
+   2947 daniil   daniil   /usr/libexec/gsd-usb-protection
+   2949 daniil   daniil   /usr/libexec/gsd-wwan
+   2953 daniil   daniil   /usr/libexec/gvfs-udisks2-volume-monitor
+   3031 daniil   daniil   /usr/libexec/ibus-dconf
+   3036 daniil   daniil   /usr/libexec/ibus-extension-gtk3
+   3097 daniil   daniil   /usr/libexec/ibus-portal
+   3117 daniil   daniil   /usr/libexec/gvfs-mtp-volume-monitor
+   3124 root     root     /usr/bin/cupsd -l
+   3132 daniil   daniil   /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+   3141 daniil   daniil   /usr/libexec/gsd-disk-utility-notify
+   3156 daniil   daniil   /usr/libexec/evolution-data-server/evolution-alarm-notify
+   3157 daniil   daniil   /usr/bin/gnome-software --gapplication-service
+   3166 daniil   daniil   /usr/libexec/localsearch-3
+   3179 daniil   daniil   /usr/bin/vmtoolsd -n vmusr --uinputFd 3
+   3193 daniil   daniil   /usr/libexec/gvfs-gphoto2-volume-monitor
+   3194 daniil   daniil   /usr/bin/pipewire-pulse
+   3217 daniil   daniil   /usr/libexec/gvfs-goa-volume-monitor
+   3223 daniil   daniil   /usr/libexec/goa-daemon
+   3227 daniil   daniil   /usr/libexec/xdg-desktop-portal
+   3232 daniil   daniil   /usr/libexec/xdg-document-portal
+   3239 daniil   root     fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+   3243 daniil   daniil   /usr/libexec/xdg-desktop-portal-gnome
+   3254 daniil   daniil   /usr/libexec/goa-identity-service
+   3272 daniil   daniil   /usr/libexec/gvfs-afc-volume-monitor
+   3286 daniil   daniil   /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.543DW3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients -enable-ei-portal
+   3302 sssd     sssd     /usr/libexec/sssd/sssd_kcm --logger=files
+   3307 daniil   daniil   /usr/libexec/evolution-calendar-factory
+   3328 daniil   daniil   /usr/libexec/evolution-addressbook-factory
+   3353 daniil   daniil   /usr/libexec/gsd-printer
+   3382 daniil   daniil   /usr/libexec/gvfsd-metadata
+   3407 daniil   daniil   /usr/libexec/ibus-engine-simple
+   3579 daniil   daniil   /usr/libexec/gsd-xsettings
+   3585 daniil   daniil   /usr/libexec/mutter-x11-frames
+   3599 daniil   daniil   /usr/libexec/ibus-x11
+   3619 daniil   daniil   /usr/libexec/xdg-desktop-portal-gtk
+   3628 daniil   daniil   /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+   3694 root     root     /usr/libexec/fwupd/fwupd
+   3801 root     root     /usr/sbin/dnf5daemon-server
+   3861 passim   passim   /usr/libexec/passimd
+   3879 daniil   daniil   /usr/bin/python3 /usr/share/ibus-typing-booster/engine/main.py --ibus
+   4207 daniil   daniil   /usr/bin/ptyxis --gapplication-service
+   4216 daniil   daniil   /usr/libexec/ptyxis-agent --socket-fd=3 --rlimit-nofile=1024
+   4234 daniil   daniil   catatonit -P
+   4246 root     root     [kworker/u9:7-blkcg_punt_bio]
+   4247 root     root     [kworker/u9:8-btrfs-delalloc]
+   4266 daniil   daniil   /usr/bin/bash
+   4452 root     root     [kworker/u13:3-ttm]
+   4453 root     root     [kworker/u13:5-ttm]
+   4511 root     root     [kworker/u10:4-btrfs-endio-write]
+   4515 daniil   daniil   bwrap --unshare-all --die-with-parent --chdir / --ro-bind /usr /usr --dev /dev --ro-bind-try /etc/ld.so.cache /etc/ld.so.cache --ro-bind-try /nix/store /nix/store --tmpfs /tmp-home --tmpfs /tmp-run --clearenv --setenv HOME /tmp-home --setenv XDG_RUNTIME_DIR /tmp-run --setenv XDG_RUNTIME_DIR /run/user/1000 --symlink /usr/lib /lib --symlink /usr/lib64 /lib64 --seccomp 50 /usr/libexec/glycin-loaders/2+/glycin-image-rs --dbus-fd 49
+   4516 daniil   daniil   bwrap --unshare-all --die-with-parent --chdir / --ro-bind /usr /usr --dev /dev --ro-bind-try /etc/ld.so.cache /etc/ld.so.cache --ro-bind-try /nix/store /nix/store --tmpfs /tmp-home --tmpfs /tmp-run --clearenv --setenv HOME /tmp-home --setenv XDG_RUNTIME_DIR /tmp-run --setenv XDG_RUNTIME_DIR /run/user/1000 --symlink /usr/lib /lib --symlink /usr/lib64 /lib64 --seccomp 50 /usr/libexec/glycin-loaders/2+/glycin-image-rs --dbus-fd 49
+   4517 daniil   daniil   /usr/libexec/glycin-loaders/2+/glycin-image-rs --dbus-fd 49
+   4571 root     root     [kworker/u10:6-blkcg_punt_bio]
+   4643 root     root     [kworker/1:2-events]
+   4690 root     root     [kworker/0:3-events]
+   4780 root     root     [kworker/u12:3-ttm]
+   4783 root     root     [kworker/u12:7-ttm]
+   4824 root     root     [kworker/0:0-events]
+   4851 root     root     [kworker/u9:1-btrfs-endio-write]
+   4852 root     root     [kworker/1:1-ata_sff]
+   4856 root     root     systemd-userwork: waiting...
+   4857 root     root     [kworker/0:1-events]
+   4858 root     root     systemd-userwork: waiting...
+   4859 root     root     [kworker/u9:2-btrfs-endio-meta]
+   4860 root     root     [kworker/u9:3]
+   4861 root     root     [kworker/u9:4-btrfs-endio-write]
+   4877 daniil   daniil   bwrap --unshare-all --die-with-parent --chdir / --ro-bind /usr /usr --dev /dev --ro-bind-try /etc/ld.so.cache /etc/ld.so.cache --ro-bind-try /nix/store /nix/store --tmpfs /tmp-home --tmpfs /tmp-run --clearenv --setenv HOME /tmp-home --setenv XDG_RUNTIME_DIR /tmp-run --setenv XDG_RUNTIME_DIR /run/user/1000 --symlink /usr/lib /lib --symlink /usr/lib64 /lib64 --seccomp 30 /usr/libexec/glycin-loaders/2+/glycin-image-rs --dbus-fd 29
+   4878 daniil   daniil   bwrap --unshare-all --die-with-parent --chdir / --ro-bind /usr /usr --dev /dev --ro-bind-try /etc/ld.so.cache /etc/ld.so.cache --ro-bind-try /nix/store /nix/store --tmpfs /tmp-home --tmpfs /tmp-run --clearenv --setenv HOME /tmp-home --setenv XDG_RUNTIME_DIR /tmp-run --setenv XDG_RUNTIME_DIR /run/user/1000 --symlink /usr/lib /lib --symlink /usr/lib64 /lib64 --seccomp 30 /usr/libexec/glycin-loaders/2+/glycin-image-rs --dbus-fd 29
+   4879 daniil   daniil   /usr/libexec/glycin-loaders/2+/glycin-image-rs --dbus-fd 29
+   4961 root     root     [kworker/u12:0-ttm]
+   5018 root     root     [kworker/1:0-ata_sff]
+   5024 root     root     systemd-userwork: waiting...
+   5025 root     root     [kworker/u13:0-ttm]
+   5026 root     root     [kworker/u13:1-ttm]
+   5027 root     root     [kworker/u13:2-ttm]
+   5028 root     root     [kworker/u13:4-ttm]
+   5029 root     root     [kworker/u13:6-ttm]
+   5030 root     root     [kworker/u13:7-ttm]
+   5031 root     root     [kworker/u13:8]
+   5032 root     root     [kworker/u13:9]
+   5035 daniil   daniil   ps -eo pid,ruser,user,cmd
